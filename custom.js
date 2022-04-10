@@ -264,8 +264,8 @@ $(document).ready(function()
 		var sortingButtons = $('.product_sorting_btn');
 		var sortNums = $('.num_sorting_btn');
 
-		if($('.product_grid').length)
-		{
+		// if($('.product_grid').length)
+		// {
 			var grid = $('.product_grid').isotope({
 				itemSelector: '.product',
 				layoutMode: 'fitRows',
@@ -295,7 +295,7 @@ $(document).ready(function()
 	                queue: false
 	            }
 	        });
-		}
+		// }
 	}
 
 });
