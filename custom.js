@@ -259,4 +259,4 @@ $(document).ready(() => setTimeout(
 		}
 	}
 
-}, 3000));
+}, 10000));
